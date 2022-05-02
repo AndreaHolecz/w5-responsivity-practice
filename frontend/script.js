@@ -7,7 +7,7 @@ const headerComponent = function(title){
 const sectionComponent = function(id, buttonText, h2Text){
     return `
     <section id="${id}">
-        <h2>${h2Text}</h2>
+        <h2>${h2Text} <span>Hello</span></h2>
         <button>${buttonText}</button>
     </section>
     `
